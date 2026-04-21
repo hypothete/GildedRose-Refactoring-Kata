@@ -19,3 +19,5 @@ Ultimately an updateMethod that replaced the items array rather than mutated the
 ## What I would do with more time
 
 I wanted to set up unit tests for the item type handlers, but I did not have time. Instead I focused on running diffs against the legacy `updateQuality` and its replacement's output using the 30 day test.
+
+In terms of keeping the code body cleaner and more legible, I would remove the legacy method and rename some of the "decrement" variables in the individual handlers. I left the legacy method in in order to have it readily available for our discussion.
