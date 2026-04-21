@@ -2,7 +2,7 @@
 
 ## Changes
 
-I split the updateQuality method into several smaller methods that address each type of item in the store. The original code tries to save on instructions at the cost of clarity for a human editor. This lets anyone working with the code look into behaviors or errors at the type level.
+I split the updateQuality method into several smaller methods that address each type of item in the store. The original code tries to save on instructions at the cost of clarity for a human editor. This lets anyone working with the code look into behaviors or errors at the type level, and also makes the behaviors much more extensible.
 
 I made updateQuality check the start of the item name to sort to item handling methods, to cover the case that an item is not named exactly one of the strings in the test.
 
